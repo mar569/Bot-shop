@@ -436,8 +436,8 @@ btn-remnawave =
     .inbounds = 🔌 Инбаунды
 
 btn-importer =
-    .from-xui = 💩 Импорт из панели 3X-UI
-    .from-xui-shop = 🛒 Бот 3xui-shop
+    .from-xui = 💩
+    .from-xui-shop = 🛒 Бот 
     .sync = 🌀 Запустить синхронизацию
     .squads = 🔗 Внутренние сквады
     .import-all = ✅ Импортировать всех
