@@ -800,7 +800,7 @@ msg-menu-editor-button =
     • <b>Текст</b>: { $text }
     • <b>Доступ</b>: { role }
     • <b>Тип</b>: { button-type }
-    • <b>Данные</b>: { $payload }
+    • <b>Данные</b>: 
     
     </blockquote>
 
