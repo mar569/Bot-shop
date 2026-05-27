@@ -775,7 +775,7 @@ msg-remnawave-inbounds =
 
 
 # RemnaShop
-msg-remnashop-main = <b>🛍 RemnaShop { $version ->
+msg-remnashop-main = <b>🛍 Piligrim { $version ->
 [0] { space }
 *[HAS] { $version }
 }</b>
