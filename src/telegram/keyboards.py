@@ -9,7 +9,7 @@ from aiogram_dialog.widgets.style import Style
 from aiogram_dialog.widgets.text import Format
 from magic_filter import F
 
-from src.core.constants import DOCS, GOTO_PREFIX, PAYMENT_PREFIX, REPOSITORY, T_ME
+from src.core.constants import DOCS, GOTO_PREFIX, PAYMENT_PREFIX
 from src.core.enums import ButtonType, PurchaseType
 from src.telegram.states import DashboardUser, MainMenu, Notification, Subscription
 from src.telegram.widgets import I18nFormat
@@ -190,7 +190,9 @@ def get_contact_support_keyboard(support_url: str) -> InlineKeyboardMarkup:
 def get_remnashop_keyboard() -> InlineKeyboardMarkup:
     builder = InlineKeyboardBuilder()
 
-
+    builder.row(
+        InlineKeyboardButton(text="📱 GitHub", url="https://github.com/mar569/Bot-shop"),
+    )
 
     return builder.as_markup()
 
@@ -200,13 +202,8 @@ def get_remnashop_update_keyboard() -> InlineKeyboardMarkup:
 
     builder.row(
         InlineKeyboardButton(
-            text="btn-remnashop-info.release-latest",
-            url=DOCS,
-            style=ButtonStyle.PRIMARY,
-        ),
-        InlineKeyboardButton(
-            text="btn-remnashop-info.how-upgrade",
-            url=f"{DOCS}/docs/ru/install/update",
+            text="📖 Документация",
+            url="https://mar569.github.io/Bot-shop",
             style=ButtonStyle.PRIMARY,
         ),
     )
@@ -243,8 +240,8 @@ def get_boosty_keyboard() -> InlineKeyboardMarkup:
 
     builder.row(
         InlineKeyboardButton(
-            text="⚡ BOOSTY",
-            url="https://boosty.to/snoups",
+            text="⚡ Поддержать",
+            url="https://github.com/mar569/Bot-shop",
         ),
     )
 
