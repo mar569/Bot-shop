@@ -339,6 +339,3 @@ event-referral =
     
     <i>Купите подписку, чтобы получать бонусы за приглашенных друзей!</i>
     </blockquote>
-
-event-remnashop-welcome =
-    <b>💎 Piligrim запущен</b>
