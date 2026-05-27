@@ -91,7 +91,7 @@ event-bot =
     .update =
     #BotUpdateEvent
 
-    <b>🔅 Событие: Обнаружено обновление Remnashop!</b>
+    <b>🔅 Событие: Обнаружено обновление Piligrim!</b>
 
     <b>📑 Версии:</b>
     <blockquote>
