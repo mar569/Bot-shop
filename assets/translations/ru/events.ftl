@@ -341,4 +341,4 @@ event-referral =
     </blockquote>
 
 event-remnashop-welcome =
-    <b>💎 Piligrim v{ $version }</b>
+    <b>💎 Piligrim </b>
