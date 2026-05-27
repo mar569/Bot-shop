@@ -341,4 +341,4 @@ event-referral =
     </blockquote>
 
 event-remnashop-welcome =
-    <b>💎 Piligrim </b>
+    <b>💎 Piligrim запущен</b>
