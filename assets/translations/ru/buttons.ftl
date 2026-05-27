@@ -241,7 +241,6 @@ btn-remnashop =
     .admins = 👮‍♂️ Администраторы
     .gateways = 🌐 Платежные системы
     .referral = 👥 Реф. система
-    .advertising = 🎯 Реклама
     .plans = 📦 Планы
     .notifications = 🔔 Уведомления
     .logs = 📄 Логи
