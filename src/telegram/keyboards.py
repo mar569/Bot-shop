@@ -9,7 +9,7 @@ from aiogram_dialog.widgets.style import Style
 from aiogram_dialog.widgets.text import Format
 from magic_filter import F
 
-from src.core.constants import DOCS, GOTO_PREFIX, PAYMENT_PREFIX
+from src.core.constants import GOTO_PREFIX, PAYMENT_PREFIX
 from src.core.enums import ButtonType, PurchaseType
 from src.telegram.states import DashboardUser, MainMenu, Notification, Subscription
 from src.telegram.widgets import I18nFormat
@@ -187,30 +187,6 @@ def get_contact_support_keyboard(support_url: str) -> InlineKeyboardMarkup:
     return builder.as_markup()
 
 
-def get_remnashop_keyboard() -> InlineKeyboardMarkup:
-    builder = InlineKeyboardBuilder()
-
-    builder.row(
-        InlineKeyboardButton(text="📱 GitHub", url="https://github.com/mar569/Bot-shop"),
-    )
-
-    return builder.as_markup()
-
-
-def get_remnashop_update_keyboard() -> InlineKeyboardMarkup:
-    builder = InlineKeyboardBuilder()
-
-    builder.row(
-        InlineKeyboardButton(
-            text="📖 Документация",
-            url="https://mar569.github.io/Bot-shop",
-            style=ButtonStyle.PRIMARY,
-        ),
-    )
-
-    return builder.as_markup()
-
-
 def get_user_keyboard(
     telegram_id: int,
     referrer_telegram_id: Optional[int] = None,
@@ -231,18 +207,5 @@ def get_user_keyboard(
                 callback_data=f"{GOTO_PREFIX}{DashboardUser.MAIN.state}:{referrer_telegram_id}",
             ),
         )
-
-    return builder.as_markup()
-
-
-def get_boosty_keyboard() -> InlineKeyboardMarkup:
-    builder = InlineKeyboardBuilder()
-
-    builder.row(
-        InlineKeyboardButton(
-            text="⚡ Поддержать",
-            url="https://github.com/mar569/Bot-shop",
-        ),
-    )
 
     return builder.as_markup()
