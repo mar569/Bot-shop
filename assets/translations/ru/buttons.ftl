@@ -27,11 +27,6 @@ btn-devices =
     .cancel-reissue = ❌ Нет
 
 btn-remnashop-info =
-    .release-latest = 👀 Посмотреть
-    .how-upgrade = ❓ Как обновить
-    .github = ⭐ GitHub
-    .telegram = 👪 Telegram
-    .donate = 💰 Поддержать разработчика
     .guide = ❓ Инструкция
 
 btn-requirement =
@@ -69,7 +64,7 @@ btn-dashboard =
     .promocodes = 🎟 Промокоды
     .access = 🔓 Режим доступа
     .remnawave = 🌊 RemnaWave
-    .remnashop = 🛍 RemnaShop
+    .remnashop = 🛍 Piligrim
     .importer = 📥 Импорт пользователей
 
 btn-statistics =
@@ -135,7 +130,7 @@ btn-user =
     .message-confirm = ✅ Отправить
     .sync = 🌀 Синхронизировать
     .sync-remnawave = 🌊 Использовать данные Remnawave
-    .sync-remnashop = 🛍 Использовать данные Remnashop
+    .sync-remnashop = 🛍 Использовать данные Piligrim
     .give-subscription = 🎁 Выдать подписку
     .subscription-internal-squads = ⏺️ Внутренние сквады
     .subscription-external-squads = ⏹️ Внешний сквад

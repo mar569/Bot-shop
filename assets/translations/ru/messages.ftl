@@ -474,7 +474,7 @@ msg-user-referrals = <b>👪 Рефералы пользователя</b>
 msg-user-sync = 
     <b>🌀 Синхронизировать пользователя</b>
 
-    <b>🛍 Remnashop:</b> { $bot_version }
+    <b>🛍 Piligrim:</b> { $bot_version }
     <blockquote>
     { $has_bot_subscription -> 
     [0] Данные отсутствуют
