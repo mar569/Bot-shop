@@ -190,17 +190,7 @@ def get_contact_support_keyboard(support_url: str) -> InlineKeyboardMarkup:
 def get_remnashop_keyboard() -> InlineKeyboardMarkup:
     builder = InlineKeyboardBuilder()
 
-    builder.row(
-        InlineKeyboardButton(text="btn-remnashop-info.github", url=REPOSITORY),
-        InlineKeyboardButton(text="btn-remnashop-info.telegram", url=f"{T_ME}remna_shop"),
-    )
 
-    builder.row(
-        InlineKeyboardButton(
-            text="btn-remnashop-info.donate",
-            url="https://boosty.to/snoups",
-        )
-    )
 
     return builder.as_markup()
 
